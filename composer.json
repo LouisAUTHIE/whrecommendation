@@ -1,0 +1,25 @@
+{
+    "name": "module/whrecommentation",
+    "description": "This module generates data for product recommandation",
+    "type": "prestashop-module",
+    "require": {
+        "php": ">=7.1",
+        "rubix/ml": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "PrestaShop\\Module\\WHRecommendation\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    },
+    "authors": [
+        {
+            "name": "AUTHIE Louis",
+            "email": "louis@web-helpers.io"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
